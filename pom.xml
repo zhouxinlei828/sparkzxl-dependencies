@@ -20,53 +20,16 @@
         <spring-boot-dependencies.version>2.3.5.RELEASE</spring-boot-dependencies.version>
         <spring-cloud-dependencies.version>Hoxton.SR8</spring-cloud-dependencies.version>
         <spring-webmvc.version>5.2.6.RELEASE</spring-webmvc.version>
-        <servlet-api.version>4.0.1</servlet-api.version>
         <knife4j.version>2.0.4</knife4j.version>
         <spring-boot-admin.version>2.2.3</spring-boot-admin.version>
         <!-- datasource-->
         <mybatis-plus.version>3.3.2</mybatis-plus.version>
         <pagehelper-spring-boot-starter.version>1.2.13</pagehelper-spring-boot-starter.version>
-        <p6spy.version>3.9.0</p6spy.version>
-        <logstash.version>5.3</logstash.version>
         <freemarker.version>2.3.28</freemarker.version>
-        <!-- common组件-->
-        <commons-lang3.version>3.9</commons-lang3.version>
-        <commons-collections4.version>4.4</commons-collections4.version>
-        <commons-io.version>2.7</commons-io.version>
-        <bcprov-jdk16.version>1.46</bcprov-jdk16.version>
-        <spring-security-rsa.version>1.0.7.RELEASE</spring-security-rsa.version>
-        <spring-data-commos.version>2.2.6.RELEASE</spring-data-commos.version>
-        <!-- jwt组件-->
-        <jwt.version>8.16</jwt.version>
-
-        <aws.version>1.11.859</aws.version>
-        <!-- google-->
-        <zxing.core.version>3.3.3</zxing.core.version>
-        <guava.version>28.2-jre</guava.version>
-        <hutool.version>5.5.1</hutool.version>
-        <!-- redisson -->
-        <redisson-spring-boot-starter.version>3.12.4</redisson-spring-boot-starter.version>
-        <zookeeper.version>3.5.6</zookeeper.version>
-        <curator.version>2.12.0</curator.version>
-
-        <jasypt.version>2.1.1</jasypt.version>
-        <elasticsearch.version>7.3.0</elasticsearch.version>
-        <html2pdf.version>1.0.2</html2pdf.version>
-        <pdfbox.version>2.0.17</pdfbox.version>
-        <itext.version>7.0.5</itext.version>
         <apache.xmlgraphics.version>1.7</apache.xmlgraphics.version>
-
-        <xstream.version>1.4.11.1</xstream.version>
         <mapstruct.version>1.4.0.CR1</mapstruct.version>
         <lombok.version>1.18.8</lombok.version>
-        <userAgent.version>1.21</userAgent.version>
         <apm-toolkit-trace.version>8.1.0</apm-toolkit-trace.version>
-        <ip2region.version>1.7.2</ip2region.version>
-        <caffeine.version>2.8.5</caffeine.version>
-        <fastjson.version>1.2.72</fastjson.version>
-        <easy-excel.version>2.2.6</easy-excel.version>
-        <retrofit-spring-boot-starter.version>2.1.3</retrofit-spring-boot-starter.version>
-        <xxl-job.version>2.2.0</xxl-job.version>
         <sharding-jdbc.version>4.0.0-RC2</sharding-jdbc.version>
         <activiti.boot.version>6.0.0</activiti.boot.version>
         <apache.xmlgraphics.version>1.7</apache.xmlgraphics.version>
@@ -120,16 +83,6 @@
                 <artifactId>spring-webmvc</artifactId>
                 <version>${spring-webmvc.version}</version>
             </dependency>
-            <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>javax.servlet-api</artifactId>
-                <version>${servlet-api.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-web</artifactId>
-                <version>${spring-boot-dependencies.version}</version>
-            </dependency>
             <!-- mybatis-plus -->
             <dependency>
                 <groupId>com.baomidou</groupId>
@@ -152,179 +105,9 @@
                 <version>${pagehelper-spring-boot-starter.version}</version>
             </dependency>
             <dependency>
-                <groupId>p6spy</groupId>
-                <artifactId>p6spy</artifactId>
-                <version>${p6spy.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>knife4j-spring-boot-starter</artifactId>
                 <version>${knife4j.version}</version>
-            </dependency>
-            <!-- 兼容 S3 协议 SDK-->
-            <dependency>
-                <groupId>com.amazonaws</groupId>
-                <artifactId>aws-java-sdk-s3</artifactId>
-                <version>${aws.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>net.logstash.logback</groupId>
-                <artifactId>logstash-logback-encoder</artifactId>
-                <version>${logstash.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-lang3</artifactId>
-                <version>${commons-lang3.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-collections4</artifactId>
-                <version>${commons-collections4.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-io</groupId>
-                <artifactId>commons-io</artifactId>
-                <version>${commons-io.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.bouncycastle</groupId>
-                <artifactId>bcprov-jdk16</artifactId>
-                <version>${bcprov-jdk16.version}</version>
-            </dependency>
-            <!--Spring Security RSA工具类-->
-            <dependency>
-                <groupId>org.springframework.security</groupId>
-                <artifactId>spring-security-rsa</artifactId>
-                <version>${spring-security-rsa.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.nimbusds</groupId>
-                <artifactId>nimbus-jose-jwt</artifactId>
-                <version>${jwt.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.zxing</groupId>
-                <artifactId>core</artifactId>
-                <version>${zxing.core.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.guava</groupId>
-                <artifactId>guava</artifactId>
-                <version>${guava.version}</version>
-            </dependency>
-            <!-- hutool工具类 -->
-            <dependency>
-                <groupId>cn.hutool</groupId>
-                <artifactId>hutool-all</artifactId>
-                <version>${hutool.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.redisson</groupId>
-                <artifactId>redisson-spring-boot-starter</artifactId>
-                <version>${redisson-spring-boot-starter.version}</version>
-            </dependency>
-            <!-- zookeeper -->
-            <dependency>
-                <groupId>org.apache.zookeeper</groupId>
-                <artifactId>zookeeper</artifactId>
-                <version>${zookeeper.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.slf4j</groupId>
-                        <artifactId>slf4j-log4j12</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.slf4j</groupId>
-                        <artifactId>slf4j-api</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>log4j</artifactId>
-                        <groupId>log4j</groupId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.curator</groupId>
-                <artifactId>curator-framework</artifactId>
-                <version>${curator.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.slf4j</groupId>
-                        <artifactId>slf4j-api</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.curator</groupId>
-                <artifactId>curator-recipes</artifactId>
-                <version>${curator.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.slf4j</groupId>
-                        <artifactId>slf4j-log4j12</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>com.github.ulisesbocchio</groupId>
-                <artifactId>jasypt-spring-boot-starter</artifactId>
-                <version>${jasypt.version}</version>
-            </dependency>
-
-            <!-- elasticsearch -->
-            <dependency>
-                <groupId>org.elasticsearch</groupId>
-                <artifactId>elasticsearch</artifactId>
-                <version>${elasticsearch.version}</version>
-            </dependency>
-
-            <!-- elasticsearch-rest-client -->
-            <dependency>
-                <groupId>org.elasticsearch.client</groupId>
-                <artifactId>elasticsearch-rest-client</artifactId>
-                <version>${elasticsearch.version}</version>
-            </dependency>
-
-            <!-- elasticsearch-rest-high-level-client -->
-            <dependency>
-                <groupId>org.elasticsearch.client</groupId>
-                <artifactId>elasticsearch-rest-high-level-client</artifactId>
-                <version>${elasticsearch.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.elasticsearch.client</groupId>
-                        <artifactId>elasticsearch-rest-client</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.elasticsearch</groupId>
-                        <artifactId>elasticsearch</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <!-- pdfHTML -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>html2pdf</artifactId>
-                <version>${html2pdf.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.pdfbox</groupId>
-                <artifactId>pdfbox</artifactId>
-                <version>${pdfbox.version}</version>
-            </dependency>
-            <!-- iText 7 -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>itext7-core</artifactId>
-                <version>${itext.version}</version>
-                <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>com.thoughtworks.xstream</groupId>
-                <artifactId>xstream</artifactId>
-                <version>${xstream.version}</version>
             </dependency>
             <!-- use mapstruct-jdk8 for Java 8 or higher -->
             <dependency>
@@ -337,11 +120,6 @@
                 <artifactId>mapstruct-jdk8</artifactId>
                 <version>${mapstruct.version}</version>
             </dependency>
-            <dependency>
-                <groupId>eu.bitwalker</groupId>
-                <artifactId>UserAgentUtils</artifactId>
-                <version>${userAgent.version}</version>
-            </dependency>
             <!-- skywalking-apm-toolkit-trace -->
             <dependency>
                 <groupId>org.apache.skywalking</groupId>
@@ -353,39 +131,6 @@
                 <groupId>org.apache.skywalking</groupId>
                 <artifactId>apm-toolkit-logback-1.x</artifactId>
                 <version>${apm-toolkit-trace.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.lionsoul</groupId>
-                <artifactId>ip2region</artifactId>
-                <version>${ip2region.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.ben-manes.caffeine</groupId>
-                <artifactId>caffeine</artifactId>
-                <version>${caffeine.version}</version>
-            </dependency>
-            <!-- fastjson -->
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>fastjson</artifactId>
-                <version>${fastjson.version}</version>
-            </dependency>
-            <!-- easyexcel -->
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>easyexcel</artifactId>
-                <version>${easy-excel.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.lianjiatech</groupId>
-                <artifactId>retrofit-spring-boot-starter</artifactId>
-                <version>${retrofit-spring-boot-starter.version}</version>
-            </dependency>
-            <!-- xxl-job-core -->
-            <dependency>
-                <groupId>com.xuxueli</groupId>
-                <artifactId>xxl-job-core</artifactId>
-                <version>${xxl-job.version}</version>
             </dependency>
             <!-- spring-boot-admin -->
             <dependency>
@@ -481,7 +226,6 @@
                 <artifactId>weixin-java-cp</artifactId>
                 <version>${weixin-sdk.version}</version>
             </dependency>
-
             <!-- sparkzxl-component 组件库-->
             <dependency>
                 <groupId>com.github.sparkzxl</groupId>
@@ -506,6 +250,11 @@
             <dependency>
                 <groupId>com.github.sparkzxl</groupId>
                 <artifactId>sparkzxl-distributed-cloud-starter</artifactId>
+                <version>${sparkzxl-component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.sparkzxl</groupId>
+                <artifactId>sparkzxl-distributed-dubbo-starter</artifactId>
                 <version>${sparkzxl-component.version}</version>
             </dependency>
             <dependency>
