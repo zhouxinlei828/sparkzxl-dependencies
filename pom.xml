@@ -23,7 +23,7 @@
         <knife4j.version>2.0.4</knife4j.version>
         <spring-boot-admin.version>2.2.3</spring-boot-admin.version>
         <!-- datasource-->
-        <mybatis-plus.version>3.3.2</mybatis-plus.version>
+        <mybatis-plus.version>3.4.1</mybatis-plus.version>
         <pagehelper-spring-boot-starter.version>1.2.13</pagehelper-spring-boot-starter.version>
         <freemarker.version>2.3.28</freemarker.version>
         <apache.xmlgraphics.version>1.7</apache.xmlgraphics.version>
