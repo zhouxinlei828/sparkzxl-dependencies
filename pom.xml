@@ -35,6 +35,7 @@
         <apache.xmlgraphics.version>1.7</apache.xmlgraphics.version>
         <fel.version>0.8</fel.version>
         <weixin-sdk.version>3.9.0</weixin-sdk.version>
+        <seata.version>1.4.0</seata.version>
     </properties>
     <distributionManagement>
         <repository>
@@ -226,6 +227,16 @@
                 <artifactId>weixin-java-cp</artifactId>
                 <version>${weixin-sdk.version}</version>
             </dependency>
+            <dependency>
+                <groupId>io.seata</groupId>
+                <artifactId>seata-spring-boot-starter</artifactId>
+                <version>${seata.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.seata</groupId>
+                <artifactId>seata-all</artifactId>
+                <version>${seata.version}</version>
+            </dependency>
             <!-- sparkzxl-component 组件库-->
             <dependency>
                 <groupId>com.github.sparkzxl</groupId>
@@ -260,6 +271,11 @@
             <dependency>
                 <groupId>com.github.sparkzxl</groupId>
                 <artifactId>sparkzxl-elasticsearch-starter</artifactId>
+                <version>${sparkzxl-component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.sparkzxl</groupId>
+                <artifactId>sparkzxl-feign-starter</artifactId>
                 <version>${sparkzxl-component.version}</version>
             </dependency>
             <dependency>
