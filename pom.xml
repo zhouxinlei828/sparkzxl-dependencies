@@ -305,6 +305,11 @@
             </dependency>
             <dependency>
                 <groupId>com.github.sparkzxl</groupId>
+                <artifactId>sparkzxl-mongodb-starter</artifactId>
+                <version>${sparkzxl-component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.sparkzxl</groupId>
                 <artifactId>sparkzxl-oauth2-resource-starter</artifactId>
                 <version>${sparkzxl-component.version}</version>
             </dependency>
