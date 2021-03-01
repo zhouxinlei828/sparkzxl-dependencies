@@ -41,11 +41,11 @@
     <distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://47.116.52.58:8085/repository/maven-releases/</url>
+            <url>http://47.114.40.129:8764/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>http://47.116.52.58:8085/repository/maven-snapshots/</url>
+            <url>http://47.114.40.129:8764/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <dependencies>
@@ -338,6 +338,11 @@
             </dependency>
             <dependency>
                 <groupId>com.github.sparkzxl</groupId>
+                <artifactId>sparkzxl-oauth2-open-starter</artifactId>
+                <version>${sparkzxl-component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.sparkzxl</groupId>
                 <artifactId>sparkzxl-oss-starter</artifactId>
                 <version>${sparkzxl-component.version}</version>
             </dependency>
@@ -442,11 +447,11 @@
             <distributionManagement>
                 <repository>
                     <id>maven-releases</id>
-                    <url>http://47.116.52.58:8085/repository/maven-releases/</url>
+                    <url>http://47.114.40.129:8764/repository/maven-releases/</url>
                 </repository>
                 <snapshotRepository>
                     <id>maven-snapshots</id>
-                    <url>http://47.116.52.58:8085/repository/maven-snapshots/</url>
+                    <url>http://47.114.40.129:8764/repository/maven-snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
             <activation>
