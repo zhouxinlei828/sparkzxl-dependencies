@@ -16,11 +16,11 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
         <!-- spring-cloud-->
-        <spring-cloud-alibaba-dependencies.version>2.2.3.RELEASE</spring-cloud-alibaba-dependencies.version>
-        <spring-boot-dependencies.version>2.3.5.RELEASE</spring-boot-dependencies.version>
-        <spring-cloud-dependencies.version>Hoxton.SR8</spring-cloud-dependencies.version>
+        <spring-cloud-alibaba-dependencies.version>2.2.5.RELEASE</spring-cloud-alibaba-dependencies.version>
+        <spring-boot-dependencies.version>2.3.9.RELEASE</spring-boot-dependencies.version>
+        <spring-cloud-dependencies.version>Hoxton.SR10</spring-cloud-dependencies.version>
         <keycloak-dependencies.version>12.0.2</keycloak-dependencies.version>
-        <spring-webmvc.version>5.2.6.RELEASE</spring-webmvc.version>
+        <spring-webmvc.version>5.2.13.RELEASE</spring-webmvc.version>
         <knife4j.version>2.0.4</knife4j.version>
         <spring-boot-admin.version>2.2.3</spring-boot-admin.version>
         <!-- datasource-->
@@ -313,11 +313,6 @@
             </dependency>
             <dependency>
                 <groupId>com.github.sparkzxl</groupId>
-                <artifactId>sparkzxl-log4j2-starter</artifactId>
-                <version>${sparkzxl-component.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.sparkzxl</groupId>
                 <artifactId>sparkzxl-mail-starter</artifactId>
                 <version>${sparkzxl-component.version}</version>
             </dependency>
@@ -359,11 +354,6 @@
             <dependency>
                 <groupId>com.github.sparkzxl</groupId>
                 <artifactId>sparkzxl-redisson-starter</artifactId>
-                <version>${sparkzxl-component.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.sparkzxl</groupId>
-                <artifactId>sparkzxl-security-keycloak-starter</artifactId>
                 <version>${sparkzxl-component.version}</version>
             </dependency>
             <dependency>
