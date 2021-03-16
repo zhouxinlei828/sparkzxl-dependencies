@@ -229,12 +229,6 @@
                 <artifactId>weixin-java-mp</artifactId>
                 <version>${weixin-sdk.version}</version>
             </dependency>
-            <!-- 企业号/企业微信SDK -->
-            <dependency>
-                <groupId>com.github.binarywang</groupId>
-                <artifactId>weixin-java-cp</artifactId>
-                <version>${weixin-sdk.version}</version>
-            </dependency>
             <dependency>
                 <groupId>io.seata</groupId>
                 <artifactId>seata-spring-boot-starter</artifactId>
