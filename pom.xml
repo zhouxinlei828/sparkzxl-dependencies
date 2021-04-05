@@ -292,6 +292,10 @@
             </dependency>
             <dependency>
                 <groupId>com.github.sparkzxl</groupId>
+                <artifactId>sparkzxl-hystrix-starter</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>com.github.sparkzxl</groupId>
                 <artifactId>sparkzxl-job-executor-starter</artifactId>
                 <version>${sparkzxl-component.version}</version>
             </dependency>
