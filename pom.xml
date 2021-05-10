@@ -8,6 +8,7 @@
     <artifactId>sparkzxl-dependencies</artifactId>
     <version>1.0.1.RELEASE</version>
     <packaging>pom</packaging>
+    <name>sparkzxl-dependencies</name>
     <description>sparkzxl dependencies pom</description>
     <url>https://github.com/sparkzxl/sparkzxl-dependencies</url>
 
