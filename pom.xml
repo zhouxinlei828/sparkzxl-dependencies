@@ -6,14 +6,14 @@
 
     <groupId>com.github.sparkzxl</groupId>
     <artifactId>sparkzxl-dependencies</artifactId>
-    <version>1.0.1.RELEASE</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>sparkzxl-dependencies</name>
     <description>sparkzxl dependencies pom</description>
     <url>https://github.com/sparkzxl/sparkzxl-dependencies</url>
 
     <properties>
-        <sparkzxl-component.version>1.0.1.RELEASE</sparkzxl-component.version>
+        <sparkzxl-component.version>1.0.1-SNAPSHOT</sparkzxl-component.version>
         <!-- maven -->
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -30,7 +30,7 @@
         <knife4j.version>2.0.8</knife4j.version>
         <spring-boot-admin.version>2.2.3</spring-boot-admin.version>
         <!-- datasource-->
-        <mybatis-plus.version>3.4.1</mybatis-plus.version>
+        <mybatis-plus.version>3.4.2</mybatis-plus.version>
         <pagehelper-spring-boot-starter.version>1.2.13</pagehelper-spring-boot-starter.version>
         <freemarker.version>2.3.28</freemarker.version>
         <apache.xmlgraphics.version>1.7</apache.xmlgraphics.version>
