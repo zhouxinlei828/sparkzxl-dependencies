@@ -6,11 +6,11 @@
 
     <groupId>com.github.sparkzxl</groupId>
     <artifactId>sparkzxl-dependencies</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.4-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
-        <sparkzxl-component.version>1.0.1-SNAPSHOT</sparkzxl-component.version>
+        <sparkzxl-component.version>1.0.4-SNAPSHOT</sparkzxl-component.version>
         <!-- maven -->
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -101,7 +101,7 @@
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-generator</artifactId>
-                <version>${mybatis-plus.version}</version>
+                <version>3.4.1</version>
             </dependency>
             <dependency>
                 <groupId>org.freemarker</groupId>
@@ -322,16 +322,6 @@
             <dependency>
                 <groupId>com.github.sparkzxl</groupId>
                 <artifactId>sparkzxl-oauth2-resource-starter</artifactId>
-                <version>${sparkzxl-component.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.sparkzxl</groupId>
-                <artifactId>sparkzxl-oauth2-server-starter</artifactId>
-                <version>${sparkzxl-component.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.sparkzxl</groupId>
-                <artifactId>sparkzxl-oauth2-open-starter</artifactId>
                 <version>${sparkzxl-component.version}</version>
             </dependency>
             <dependency>
