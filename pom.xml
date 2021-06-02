@@ -6,7 +6,7 @@
 
     <groupId>com.github.sparkzxl</groupId>
     <artifactId>sparkzxl-dependencies</artifactId>
-    <version>1.0.2.RELEASE</version>
+    <version>1.0.3.RELEASE</version>
     <packaging>pom</packaging>
     <name>sparkzxl-dependencies</name>
     <description>sparkzxl dependencies pom</description>
@@ -124,7 +124,7 @@
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-generator</artifactId>
-                <version>${mybatis-plus.version}</version>
+                <version>3.4.1</version>
             </dependency>
             <dependency>
                 <groupId>org.freemarker</groupId>
@@ -345,16 +345,6 @@
             <dependency>
                 <groupId>com.github.sparkzxl</groupId>
                 <artifactId>sparkzxl-oauth2-resource-starter</artifactId>
-                <version>${sparkzxl-component.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.sparkzxl</groupId>
-                <artifactId>sparkzxl-oauth2-server-starter</artifactId>
-                <version>${sparkzxl-component.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.sparkzxl</groupId>
-                <artifactId>sparkzxl-oauth2-open-starter</artifactId>
                 <version>${sparkzxl-component.version}</version>
             </dependency>
             <dependency>
