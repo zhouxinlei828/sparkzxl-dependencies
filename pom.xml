@@ -6,14 +6,14 @@
 
     <groupId>com.github.sparkzxl</groupId>
     <artifactId>sparkzxl-dependencies</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <packaging>pom</packaging>
     <name>sparkzxl-dependencies</name>
     <description>sparkzxl dependencies pom</description>
     <url>https://github.com/sparkzxl/sparkzxl-dependencies</url>
 
     <properties>
-        <sparkzxl-component.version>1.1</sparkzxl-component.version>
+        <sparkzxl-component.version>1.2</sparkzxl-component.version>
         <!-- maven -->
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
