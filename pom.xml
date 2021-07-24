@@ -43,6 +43,7 @@
         <fel.version>0.8</fel.version>
         <weixin-sdk.version>3.9.0</weixin-sdk.version>
         <seata.version>1.4.0</seata.version>
+        <swagger-models.version>1.5.22</swagger-models.version>
     </properties>
 
     <licenses>
@@ -396,6 +397,11 @@
                 <groupId>com.github.sparkzxl</groupId>
                 <artifactId>sparkzxl-zookeeper-starter</artifactId>
                 <version>${sparkzxl-component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-annotations</artifactId>
+                <version>${swagger-models.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
